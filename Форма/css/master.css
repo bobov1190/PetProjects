@@ -1,0 +1,75 @@
+*,
+*::before,
+*::after {
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+    user-select: none;
+    font-family:Papyrus;
+}
+textarea {
+    resize:none;
+}
+body {
+    background:#333;
+}
+.container{
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+    width: 100vw;
+}
+.form {
+    display:flex;
+    flex-direction:column;
+    border:3px solid #111;
+    padding: 30px 150px;
+    border-radius:50%;
+}
+.form:hover {
+    display:flex;
+    flex-direction:column;
+    border:3px solid #111;
+    background:#222;
+    padding: 30px 150px;
+    border-radius:50%;
+}
+input {
+    margin: 10px auto;
+    height:40px;
+    background:#444;
+    border-radius:50%;
+    border:3px solid #355;
+    padding: 10px 15px;
+}
+input:hover {
+    margin: 10px auto;
+    height:40px;
+    background:#333;
+    border-radius:50%;
+    border:3px solid #244;
+    padding: 10px 15px;
+}
+button {
+    margin: 20px auto;
+    width: 200px;
+    background:#555;
+    border-radius:50%;
+    height: 40px;
+    border:1px solid #999;
+}
+button:hover {
+    border:1px solid #111;
+    background:#222;
+}
+button:focus-visible {
+    border:none;
+}
+.companyName {
+    font-size:40px;
+    font-weight:bolder;
+    white-space:nowrap;
+    margin: 30px auto;
+    color:#999;
+}
